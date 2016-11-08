@@ -1,0 +1,26 @@
+/* special */
+dl.pair {
+    text-align: center;
+    padding: 5px;
+    float: left;
+    height: 90px;
+    margin: -5px 0 0 0;
+}
+
+.pair dd {
+    margin: 0;
+    padding: 0;
+}
+
+.pair a:hover {
+    text-decoration: none;
+}
+
+.type {
+    font: bold 18px Verdana, Sans-serif;
+    border-bottom: 1px solid #555;
+    margin: 5px 0 0 0;
+    padding-right: 5px;
+    text-align: left;
+    clear: both;
+}
