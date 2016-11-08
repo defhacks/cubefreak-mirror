@@ -1,0 +1,286 @@
+/***********************************************
+*
+*                   global styles
+*
+************************************************/
+
+body {
+    background-color: #fff;
+    font: normal 12px Arial, Helvetica, Sans-serif;
+    color: #000; /* global default font color */
+}
+
+a, a:visited {
+    color: #4a6c8e;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #4a6c8e;
+    text-decoration: none;
+}
+
+table {
+    font: normal 12px Arial, Helvetica, Sans-serif;
+}
+
+h1, h2, h3, h4, h5 {margin: 0 0 0.5em 0;}
+h4 {margin: 0;}
+p {margin: 0 0 1em 0;}
+
+h1 { 
+    clear: both;
+    font: bold 26px Arial, Helvetica, Sans-serif;
+}
+
+h2 {
+    clear: both;
+    font: bold 22px Arial, Helvatica, Sans-serif;
+    background-color: #eee;
+}
+
+h3 { 
+    clear: both;
+    font: bold 18px Arial, Helvetica, Sans-serif;
+}
+
+h4 {
+    clear: both;
+    font: bold 15px Arial, Helvetica, Sans-serif;
+}
+
+h5 {
+    clear: both;
+    font: italic 15px Arial, Helvetica, Sans-serif;
+}
+
+h6 {
+    clear: both;
+    font: bold 12px Arial, Helvetica, Sans-serif;
+    margin-bottom: 0;
+}
+
+/************************************************
+*
+*                     divs
+*
+*************************************************/
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: #fff;
+    line-height: 130%;
+}
+
+/* ---------------- header ---------------- */
+#header {
+    float: left;
+    height: 50px;
+    width: 100%;
+    min-width: 960px;
+    margin: -8px 0 0 -8px;
+}
+
+#header ul li.right {
+    float: right;
+}
+
+#header ul li.right a {
+    background-color: #666;
+    border: 1px solid #333;
+    border-bottom: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+/* -- navigation based on Hybrid CSS Dropdowns by
+      Eric Shepherd, http://www.alistapart.com/articles/hybrid/  */
+
+#nav0 {
+    float: left;
+    height: 28px;
+    width: 100%;
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    border-bottom: solid 1px #333;
+    z-index: 0;
+}
+
+#nav {
+    position: relative;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 7px;
+    list-style: none;
+    min-width: 960px;
+    background-color: #ccc;
+    z-index: 1;
+}
+
+#nav li { /* main nav */
+    margin: 0;
+    float: left;
+    display: block;
+    padding: 2px 7px 3px 7px;
+}
+
+#nav li ul { /* subnav */
+    margin: 0;
+    padding: 2px 0 0 10px;
+    display: none; /* hide */
+    position: absolute;
+    top: 24px;
+    *top: 44px;
+    left: 0px;
+    background: #ddd;
+    height: 23px;
+    width: 100%;
+    border-bottom: solid 1px #333;
+    z-index: 1;
+}
+
+#nav li.off ul {
+    margin-top: -1px;
+    border-top: solid 1px #333;
+}
+
+#nav a { /* all links */
+    display: block;
+    padding: 2px 7px 3px 7px;
+    font: normal 13px Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+    text-shadow: #eee 0px 1px 0px;
+    color: #666;
+}
+
+#nav li.off a {
+    background-color: #ccc;
+}
+
+#nav li.on a {
+    background-color: #ddd;
+    border: 1px solid #333;
+    border-bottom: none;
+    z-index: 2;
+}
+
+#nav li.on_nosub a {
+    background: #fff;
+    border: 1px solid #333;
+    border-bottom: none;
+}
+
+#nav li.on ul li.on a {
+    background: #fff;
+    border: 1px solid #333;
+    border-bottom: none;
+}
+
+#nav li.off ul li a {
+    background: #ddd;
+}
+
+#nav li.on ul a, #nav li.off ul a {
+    float: left; /*ie doesn't inherit the float*/
+    border: 0;
+}
+
+#nav li.on ul { /* display current subnav */
+    display: block;
+}
+
+#nav li.off:hover ul { /* display other subnav on hover */
+    display: block;
+    z-index: 2;
+}
+
+#nav li.off_nosub:hover ul { /* display other subnav on hover */
+    display: block;
+    z-index: 2;
+}
+
+#nav li:hover a {
+    background: #ddd;
+    border: 1px solid #333;
+    border-bottom: none;
+    z-index: 3;
+}
+
+#nav li.on_nosub:hover a {
+    background: #fff;
+}
+
+#nav li.off_nosub:hover a {
+    background: #ccc;
+    border: none;
+}
+
+#nav li ul.blank {
+    background: #fff;
+    border-top: 1px solid #333;
+    border-bottom: none;
+    margin-top: -1px;
+    height: 25px;
+}
+
+
+/* ---------------- middle ---------------- */
+
+#middle {
+    float: left;
+    width: 100%;
+    min-width: 960px;
+    padding-top: 15px;
+}
+
+#content {
+    clear: both;
+    float: left;
+    width: 960px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    text-align: left;
+}
+
+/* ---------------- Footer ---------------- */	
+
+#footer {
+    float: left;
+    height: 30px;
+    width: 100%;
+    min-width: 960px;
+    margin: 0 0 0 -8px;
+    background-color: #ccc;
+    border-top: 1px solid #000;
+}
+
+#footer p {
+    float: right;
+    background-color: #ccc;
+    color: #fff;
+    font: normal 12px Arial, Helvetica, Sans-serif;
+    color: #666;
+    text-shadow: #eee 0px 1px 0px;
+}
+
+/***************************************************
+*
+*                special styles
+*
+****************************************************/
+
+/* ----------------Algs, Ranking---------------- */
+tr.label {
+    background-color: #99aacc;
+    text-align: center;
+    font: bold 11px Arial;
+    color: #fff;
+}
+tr.top3 {
+    background-color: #ffd700; 
+}
+

@@ -1,0 +1,86 @@
+/************************************************
+*
+*           style for index.html
+*
+*************************************************/
+
+/* --------------- divs ---------------------*/
+
+#top {
+    width: 100%;
+}
+
+#top h1 {
+    float: left;
+    width: 190px;
+    margin-top: 0;
+}
+
+#tagphrase {
+    float: left;
+    width: 400px;
+    padding-top: 12px;
+}
+
+#search {
+    float: right;
+    width: 195px;
+}
+
+#adsense {
+    clear: both;
+    float: left;
+}
+
+#indexcontent {
+    clear: both;
+    float: left;
+    width: 740px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    text-align: left;
+}
+
+#rightcol {
+    float: right;
+    width: 200px;
+    text-align: left;
+}
+
+#chatter {
+    height: 550px;
+}
+
+/* --------------- news ---------------------*/
+
+#news {
+    margin: 0 10px 0 10px;
+}
+
+.month {
+    font: bold 14px Verdana, Sans-serif;
+    margin: 5px 0 0 0;
+    padding-right: 5px;
+    text-align: right;
+    clear: both;
+}
+
+dl.date {
+    width: 100%;
+    float: left;
+}
+
+.date dt {
+    width: 50px;
+    float: left;
+    margin: 0;
+    font: bold 12px Arial; 
+}
+
+.date dt { clear: both; }
+
+.date dd {
+    float: left;
+    width: 650px;
+    margin: 0 0 5px 0;
+}
