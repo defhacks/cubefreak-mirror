@@ -1,0 +1,2864 @@
+<html>
+ <head>
+  <meta content="3OP blindfold cubing method used by many top blindfold cubers" name="description">
+   <meta content="rubik, cube, rubik's cube,  blindfold, blindfoldcubing, guide, tutorial, speed, speedsolving" name="keywords">
+    <title>
+     Cubefreak | A 3-Cycle Guide to 3x3x3 Blindfold Cubing Version 2.44140625
+    </title>
+    <link href="/cubefreak-mirror/styles/main.css" rel="StyleSheet" type="text/css">
+     <script src="/scripts/cookies/cookies-jkm.js" type="text/javascript">
+     </script>
+     <script src="/scripts/colorscheme/getColorParam.js" type="text/javascript">
+     </script>
+     <style>
+      #outline { list-style-type: none; margin-left: 5px; }
+      #outline ul { list-style-type: none; margin-left: 5px; }
+      #outline ul ul {list-style-type: none; }
+     </style>
+    </link>
+   </meta>
+  </meta>
+ </head>
+ <body>
+  <!-- begin header -->
+  <div id="header">
+   <!--[if IE]>
+        <div style="z-index: 10;"><h1>This menu does not work in Internet Explorer. Please switch to <a href="http://www.google.com/chrome">Chrome</a> or <a href="http://www.mozilla.com/">Firefox</a>.</h1></div>
+      <![endif]-->
+   <div id="nav0">
+    <ul id="nav">
+     <div class="wrapper">
+      <li class="off_nosub">
+       <a href="/cubefreak-mirror/" title="cubefreak.net">
+        home
+       </a>
+       <ul class="blank">
+       </ul>
+      </li>
+      <li class="off">
+       <a href="#" title="things you should know about">
+        general
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/general/colorscheme.html">
+           Color Scheme
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/general/notation.html">
+           Notation
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/a/">
+           algviewer
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="off">
+       <a href="/cubefreak-mirror/speed/" title="speedsolving methods and tips">
+        speed
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/">
+           Main
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/cfop/" title="pure Fridrich = Cross/F2L/OLL/PLL">
+           CFOP
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/advancedf2l/" title="it's awesome">
+           Advanced F2L
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/mgls/" title="Makisumi-Garron Last Slot">
+           MGLS
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/salvia/" title="David Salvia's Visual CLL/ELL">
+           Salvia
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/speed/articles/" title="how to get faster">
+           Tips/Articles
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="on">
+       <a href="/cubefreak-mirror/bld/" title="blindfold solving guides">
+        blind
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/bld/">
+           Main
+          </a>
+         </li>
+         <li class="on">
+          <a href="/cubefreak-mirror/bld/3op_guide.html" title="3-Cycle Orientation Permutation">
+           3OP Guide
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/bld/m2_guide.html" title="M2 with my modification for M edges">
+           M2 Guide
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/bld/misc.html">
+           Miscellaneous Techniques
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/bld/other.html">
+           Other
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="off">
+       <a href="#" title="unofficial contests">
+        contests
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/contests/negative/" title="the annual negative time solving contest">
+           negative
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/contests/universityrelay/" title="the worldwide inter-university cube relay">
+           relay
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/contests/alsicebucket/" title="the als ice bucket challenge">
+           als ice bucket
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="off_nosub">
+       <a href="/cubefreak-mirror/articles/" title="articles, writings, musings">
+        writing
+       </a>
+       <ul class="blank">
+       </ul>
+      </li>
+      <li class="off">
+       <a href="#" title="things that don't fit elsewhere">
+        other
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/other/pyramo.html">
+           The Ultimate Pyramorphix Method
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/other/glossary.html">
+           Cube Glossary
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/other/curiosities.html">
+           Cubing Curiosities
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/other/RUDstudy.html">
+           RUD Study
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="off">
+       <a href="/cubefreak-mirror/site/" title="about cubefreak">
+        site/about
+       </a>
+       <ul>
+        <div class="wrapper">
+         <li class="off">
+          <a href="/cubefreak-mirror/site/index.html">
+           Main
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/site/archive.html">
+           Archive
+          </a>
+         </li>
+         <li class="off">
+          <a href="/cubefreak-mirror/site/acknowledgments.html">
+           Acknowledgments
+          </a>
+         </li>
+        </div>
+       </ul>
+      </li>
+      <li class="right">
+       <a href="http://makisumi.com/" title="the guy who made this website">
+        author
+       </a>
+      </li>
+     </div>
+    </ul>
+   </div>
+  </div>
+  <!-- end header -->
+  <!-- begin middle -->
+  <div id="middle">
+   <!-- begin wrapper -->
+   <div class="wrapper">
+    <!---- begin content ---->
+    <div id="content">
+     <h1>
+      A 3-Cycle Guide to 3x3x3 Blindfold Cubing
+     </h1>
+     <p>
+      <i>
+       Version 2.44140625 (third version) The nth version is version (1+1/(2^(n-1)))^(2^(n-1))
+      </i>
+      <br>
+       <i>
+        01-Jan-08
+       </i>
+       <i>
+        By Shotaro Makisumi
+       </i>
+       <br>
+        <a href="3op_guide.pdf">
+         A printable PDF version
+        </a>
+        is also available. Also see
+        <a href="misc.html">
+         these advanced techniques
+        </a>
+        for this blindfold solving method.
+       </br>
+      </br>
+     </p>
+     <h2 class="bg">
+      Preface
+     </h2>
+     <p>
+      If you're new to blindfold cubing, you might wonder if it's even possible to do it. But as with other games like
+      <a href="http://www.casinoadvisor.com/">
+       online casinos
+      </a>
+      , there are techniques you can learn to succeed and improve. Solving a Rubik's Cube blindfolded is much easier than you think. Cubers with only a very basic sighted method (say one minute) have learned it in less than a week, and
+      <a href="http://games.groups.yahoo.com/group/speedsolvingrubikscube/message/38755">
+       one person
+      </a>
+      has even learned the method having never solved a cube with his eyes open. Unlike an advanced speedcubing method such as the Fridrich Method, even blindfolded methods used by the world's best require relatively little memorization and rely on a few basic concepts. All you need to master blindfold cubing are an average memory and determination.
+     </p>
+     <p>
+      I learned 3OP (3-cycle Orientation Permutation), originally called the 3-cycle method, from
+      <a href="http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html">
+       Olly's Cube Page
+      </a>
+      in the winter of 2002. As one of the first blindfold cubers to compete officially, I set multiple world records in 2004 and 2005 and placed second at the World Championship in 2007. Until 2007, 3OP was the method of choice among the world's fastest blindfold cubers. Although that role is now claimed by M2/R2 and the various freestyle methods, the basic principles of cycles and set-up moves remain essential in these more sophisticated methods. What's more, 3OP can be readily applied to many other twisty puzzles.
+     </p>
+     <p>
+      This guide provides a detailed explanation of 3OP as used by many top blindfold cubers through 2006, including myself. Although the method is simple enough to be learned in as fast as a few days, 3OP is good enough for times as fast as 1 minute and 30 seconds including memorization.
+     </p>
+     <p>
+      <b>
+       Acknowledgements
+      </b>
+      <br>
+       This guide has been around since 2005. Special thanks are due to Sunil Pedapudi for his encouragement; to Stefan Pochmann and Richard Carr for their valuable comments on early drafts; and to Leyan Lo and Lucas Garron for their algorithms.
+      </br>
+     </p>
+     <h2 class="bg">
+      Contents
+     </h2>
+     <ul id="outline">
+      <li>
+       <a href="#prep">
+        1 Introduction
+       </a>
+      </li>
+      <ul>
+       <li>
+        1.1 Preliminaries
+       </li>
+       <li>
+        1.2 Overview
+       </li>
+       <li>
+        1.3 Preparation
+       </li>
+      </ul>
+      <li>
+       <a href="#O">
+        2 Orientation
+       </a>
+      </li>
+      <ul>
+       <li>
+        <a href="#EO">
+         2.1 Edge Orientation
+        </a>
+       </li>
+       <li>
+        <a href="#CO">
+         2.2 Corner Orientation
+        </a>
+       </li>
+      </ul>
+      <li>
+       <a href="#P">
+        3 Permutation
+       </a>
+      </li>
+      <ul>
+       <li>
+        <a href="#cycle">
+         3.1 Cycle Method
+        </a>
+       </li>
+       <li>
+        <a href="#CP">
+         3.2 Corner Permutation
+        </a>
+       </li>
+       <ul>
+        <li>
+         <a href="#CP3">
+          3.2.1 Cycles of length 3
+         </a>
+        </li>
+        <li>
+         <a href="#CP2">
+          3.2.2 Cycles of length 2
+         </a>
+        </li>
+       </ul>
+       <li>
+        <a href="#EP">
+         3.3 Edge Permutation
+        </a>
+       </li>
+       <ul>
+        <li>
+         <a href="#EP3">
+          3.3.1 Cycles of length 3
+         </a>
+        </li>
+        <li>
+         <a href="#EP2">
+          3.3.2 Cycles of length 2
+         </a>
+        </li>
+       </ul>
+       <li>
+        <a href="#parity">
+         3.4 Permutation Parity
+        </a>
+       </li>
+      </ul>
+      <li>
+       <a href="#summary">
+        4 Summary
+       </a>
+      </li>
+      <li>
+       <a href="#memo">
+        5 Memorization
+       </a>
+      </li>
+      <li>
+       <a href="#example">
+        6 Example Solves
+       </a>
+      </li>
+      <li>
+       <a href="#links">
+        7 Links
+       </a>
+      </li>
+     </ul>
+     <a name="introduction">
+     </a>
+     <h2 class="bg">
+      1 Introduction
+     </h2>
+     <h3>
+      1.1 Preliminaries
+     </h3>
+     <p>
+      <b>
+       The Rules of the Game
+      </b>
+      <br>
+       In blindfold cubing, the solver first inspects the puzzle to memorize it, without making any moves, before solving it without any aid of vision. The solver can do this by wearing an actual blindfold, as done in official competitions, by blocking the vision with a desk, by solving behind the back, or simply by closing eir eyes. In normal blindfold solving, both memorization and resolution are timed. The entire sequence is as follows:
+      </br>
+     </p>
+     <p>
+      (1) Timer starts; at the same time, solver starts inspecting the puzzle. (Memorization phase)
+      <br>
+       (3) Solver blocks his vision.
+       <br>
+        (4) Solver solves. (Resolution phase)
+        <br>
+         (5) Solver signals that he has finished solving by stopping the timer.
+         <br>
+          (6) Solver unblocks his vision; if the puzzle is indeed solved, the attempt is a success.
+         </br>
+        </br>
+       </br>
+      </br>
+     </p>
+     <p>
+      There is a second type of blindfold cubing, called "speed blindfold cubing," that only times the resolution. 3OP is designed for the first type of blindfold cubing.
+     </p>
+     <p>
+      <b>
+       Classification of Methods
+      </b>
+      <br>
+       The most basic classification of the various blindfold solving methods is by the way in which permutation is solved: piece-by-piece, or by decomposition into cycles. Richard Carr's piece-by-piece method belongs in first category, while all modern methods, including 3OP, use cycles (explained later in this guide). Of the various cycle methods, the group that includes 3OP solves the orientation (the flip/rotation) before the permutation (the location), while the other group, which consists of Pochmann, M2/R2, and the various freestyle and restricted freestyle methods, combine orientation and permutation.
+      </br>
+     </p>
+     <p>
+      Whatever the method, blindfolded solving is very different from normal cubing. While sighted methods aim for fewer moves and affect many pieces at each step, blindfolded methods use a limited number of basic algorithms that move very few pieces. This makes it possible to keep track of the state of the puzzle while blindfolded. In cycle methods, the solver memorizes the necessary operations left rather than the puzzle's state. As a result, the amount needed to be memorized decreases until there is nothing to remember at all, at which point the puzzle is solved.
+      <h3>
+       1.2 Overview
+      </h3>
+      <p>
+       Rubik's Cube has four nearly independent parts: corner orientation (CO), edge orientation (EO), corner permutation (CP), and edge permutation (EP). Each cubie (a corner or an edge) has an orientation (its flip/rotation) and a permutation (where it needs to go). Since a Rubik's Cube has 20 cubies, all the necessary information can be memorized as 40 numbers. The actual memory burden can be signifacantly eased by memorizing visually and is comparable to two 10-digit phone numbers.
+      </p>
+      <p>
+       3OP solves the cube one part at a time, starting with the two orientation steps. Each piece is first oriented (flipped or rotated) in place, meaning without changing the permutation. Then, each piece is permuted (moved) to its correct spot, now without disturbing the already-corrected orientation. Each of the four parts is solved independently, except possibly to correct the permutation parity involving two corners and two edges. Each step is in turn divided into smaller tasks--in CP and EP, into cycles--each of which is handled by judiciously applying an algorithm. Because everything can be broken into a small number of tasks, 3OP requires only a handful of algorithms.
+      </p>
+      <p>
+       This guide goes through the four steps and permutation parity in the order they are solved. But first, we need some preparation.
+      </p>
+      <h3>
+       1.3 Preparation
+      </h3>
+      <table cellpadding="20">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Number Assignment (for this guide)
+          </b>
+         </p>
+         <table>
+          <tr>
+           <td>
+            #
+           </td>
+           <td>
+            Corners:
+           </td>
+           <td>
+            Edges:
+           </td>
+          </tr>
+          <tr>
+           <td>
+            1
+           </td>
+           <td>
+            UFL
+           </td>
+           <td>
+            UF
+           </td>
+          </tr>
+          <tr>
+           <td>
+            2
+           </td>
+           <td>
+            UFR
+           </td>
+           <td>
+            UL
+           </td>
+          </tr>
+          <tr>
+           <td>
+            3
+           </td>
+           <td>
+            UBR
+           </td>
+           <td>
+            UB
+           </td>
+          </tr>
+          <tr>
+           <td>
+            4
+           </td>
+           <td>
+            UBL
+           </td>
+           <td>
+            UR
+           </td>
+          </tr>
+          <tr>
+           <td>
+            5
+           </td>
+           <td>
+            DFL
+           </td>
+           <td>
+            FL
+           </td>
+          </tr>
+          <tr>
+           <td>
+            6
+           </td>
+           <td>
+            DFR
+           </td>
+           <td>
+            BL
+           </td>
+          </tr>
+          <tr>
+           <td>
+            7
+           </td>
+           <td>
+            DBR
+           </td>
+           <td>
+            BR
+           </td>
+          </tr>
+          <tr>
+           <td>
+            8
+           </td>
+           <td>
+            DBL
+           </td>
+           <td>
+            FR
+           </td>
+          </tr>
+          <tr>
+           <td>
+            9
+           </td>
+           <td>
+           </td>
+           <td>
+            DF
+           </td>
+          </tr>
+          <tr>
+           <td>
+            10
+           </td>
+           <td>
+           </td>
+           <td>
+            DL
+           </td>
+          </tr>
+          <tr>
+           <td>
+            11
+           </td>
+           <td>
+           </td>
+           <td>
+            DB
+           </td>
+          </tr>
+          <tr>
+           <td>
+            12
+           </td>
+           <td>
+           </td>
+           <td>
+            DR
+           </td>
+          </tr>
+         </table>
+        </td>
+        <td>
+         <p>
+          Pick an orientation of the cube (a top color and a front color) that you are comfortable with. Every scrambled cube will be memorized by first placing it into this orientation. In the table to the left, corners have been labeled 1 through 8 and edges 1 through 12; for ease of explanation, this labeling will be used throughout this guide. In practice, you may use other numbering schemes, letters, or images, or pure visual memory. Should you choose to use a labeling scheme, associate each label with the location and colors of that cubie. Go through each piece of a scrambled cube, numbering or labeling it appropriately and pointing to where it belongs, until you can do this without hesitation.
+         </p>
+        </td>
+       </tr>
+      </table>
+      <a name="O">
+      </a>
+      <h2 class="bg">
+       2 Orientation
+      </h2>
+      <p>
+       Orientation of a cubie is its flip or twist. For each piece, we pre-define a "correct orientation." Our first goal in this method is to correct the orientation of every piece without disturbing the permutation (i.e. flip the pieces in place). Unlike in permutation, edge and corners are completely independent for orientation. We can therefore choose to start with either edges or corners.
+      </p>
+      <a name="EO">
+      </a>
+      <h3>
+       2.1 Edge Orientation
+      </h3>
+      <p>
+       There are twelve edge pieces on a Rubik's Cube. Since each edge has two stickers, it can be twisted in two ways: correct and incorrect orientation. We define "correct" orientation of an edge to be the one that it can reach from the solved state within the (UDF2B2RL) group*, i.e. without quarter turns on F and B faces. The other orientations are "incorrect." From this definition, we can determine the orientation of an edge by (mentally) moving it to its correct position under this restriction. If the facelet colors match with the centers, the edge is correctly oriented. In official attempts we cannot make any moves during memorization.
+      </p>
+      <p>
+       *The first two versions of this guide were written with the restriction (UDFBR2L2), which most top blindfold cubers used before 2006. Either one will work as long as the set-up moves for edge permutation also follow the same restriction. Using (UDF2B2RL), however, makes the set-up moves for edge permutation easier. Since many of the edge permutation algorithms use only R and U, we sometimes get some cancellation with the set-up moves.
+      </p>
+      <p>
+       Here is one way to process this information quickly:
+       <br>
+        <p>
+         <b>
+          In U/D layer
+         </b>
+        </p>
+        <li>
+         1. If the piece has a U/D color, correct if this is on U/D, incorrect if on F/B/R/L.
+        </li>
+        <li>
+         2. Otherwise, correct if R/L color is on F/B/R/L, incorrect if on U/D.
+        </li>
+        <p>
+         <b>
+          In the middle layer
+         </b>
+        </p>
+        <li>
+         3. If the piece has a U/D color, correct if this is on F/B, incorrect if on R/L.
+        </li>
+        <li>
+         4. Otherwise, look at either one of the two stickers and the adjacent center. If these two colors are same or on opposite sides of the cube, correct. If not, incorrect.
+        </li>
+        <p>
+         Although these rules can be stated more concisely, this best approximates the way many cubers actually go about determining the edge orientation of each piece.
+        </p>
+        <table cellpadding="10">
+         <tr>
+          <td>
+           <p>
+            The dark-gray stickers on the applet below represent the spots where U/D sticker of a correct edge can be located.
+           </p>
+           <p>
+            <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+             <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+              <script>
+               getColorParam();
+              </script>
+              <param name="position" value="LLUU">
+               <param name="facelets" value=".d.d.d.d..d.d.d.d..d.....d..d.....d...................">
+               </param>
+              </param>
+             </param>
+            </applet>
+           </p>
+          </td>
+          <td>
+           <p>
+            If a piece has no U/D color, it must have a R/L color, so either rule 2 or 4 applies. The dark-gray stickers represent the spots where R/L sticker of a correct edge can be located.
+           </p>
+           <p>
+            <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+             <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+              <script>
+               getColorParam();
+              </script>
+              <param name="position" value="LLUU">
+               <param name="facelets" value=".....................d.d......d.d....d.d.d.d..d.d.d.d.">
+               </param>
+              </param>
+             </param>
+            </applet>
+           </p>
+          </td>
+         </tr>
+        </table>
+        <p>
+         Once we know how to determine the orientation, this is the easiest step in the 3-cycle method. We memorize which edges are incorrectly oriented. It can be shown using some basic group theory that any solvable configuration of the cube has an even number of incorrectly oriented edges. We can therefore proceed by flipping two of these edges at a time, which automatically corrects the orientation, with the following:
+        </p>
+        <table cellpadding="5">
+         <tr>
+          <td>
+           <p>
+            <center>
+             <b>
+              Algorithms
+             </b>
+            </center>
+            <br>
+             1 3: M'UM'UM'U2MUMUMU2
+            </br>
+           </p>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="M' U M' U M' U2 M U M U M U2">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+         </tr>
+        </table>
+        <h5>
+         Conjugation
+        </h5>
+        <p>
+         Although by itself the algorithm above can only flip edges 1 and 3, through
+         <b>
+          conjugation
+         </b>
+         , we can use it to flip any two edges. In conjugation, we start with some known sequence X--in our case, the algorithm above. To modify X, we use some
+         <b>
+          set-up moves
+         </b>
+         Y and perform YXY^(-1), that is, Y followed by X followed by the inverse of Y. (For more information on using conjugation to solve puzzles, see
+         <a href="http://www.geocities.com/jaapsch/puzzles/theory.htm#conjug">
+          Jaap's Puzzle Page
+         </a>
+         .) We demonstrate this with an example.
+        </p>
+        <table align="center" width="80%">
+         <tr>
+          <td>
+           <p>
+            <b>
+             Example 1:
+            </b>
+            Suppose we want to flip edges 8 and 12. We take our set-up moves, Y, to be any sequence that brings edges 8 and 12 to positions 1 and 3; for example, Y=z'RB. X=M'UM'UM'U2MUMUMU2 then flips these two edges, and the inverse of the set-up moves, Y^(-1)=B'R'z, brings the edges back to their original positions.
+           </p>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="{Set-up moves}y'RB{Two-edge flipper}M'UM'UM'U2MUMUMU2{Inverse of set-up moves}B'R'y">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+         </tr>
+        </table>
+        <p>
+         Since conjugation and set-up moves will be used in every step of the 3-cycle, make sure that you understand these concepts. For orientation, both edges and corners, there is no restriction on the set-up moves. As we will see, however, set-up moves for the permutation steps must satisfy some conditions to make sure that the main algorithm, X, does not disturb the already-corrected orientation.
+        </p>
+        <p>
+         If there are more than two incorrectly oriented edges, we need to use the algorithm above, conjugated appropriately, more than once. If your goal is simply to have a successful blindfold solve, this works perfectly fine. To improve your time, however, you need to use additional algorithms that flip more than two edges at a time:
+        </p>
+        <table cellpadding="5">
+         <tr>
+          <td>
+           <p>
+            <center>
+             <b>
+              Algorithms
+             </b>
+            </center>
+            <br>
+             1 2 3 4: (M'U)*4(MU)*4
+             <br>
+              2 3 9 11: (M'U)*4
+              <br>
+               1 2 3 5 8 9: (RUR'F)*5
+               <br>
+                1 3 5 6 7 8 9 11: (DwDRwR)*3
+               </br>
+              </br>
+             </br>
+            </br>
+           </p>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="M' U M' U M' U M' U M U M U M U M U">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="M'UM'UM'UM'U">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="RUR'FRUR'FRUR'FRUR'FRUR'F">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="d D r R d D r R d D r R">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+          </td>
+         </tr>
+        </table>
+        <p>
+         There is also an algorithm that flips all twelve edges (called super-flip). Because of its length, however, it is not particularly useful unless we have ten or more incorrectly oriented edges. The other algorithms, although more efficient, often require clever set-up moves.
+        </p>
+        <table align="center" width="80%">
+         <tr>
+          <td>
+           <p>
+            <b>
+             Example 2:
+            </b>
+            To flip edges 1, 2, 5, and 7, we can set them up to the U layer with BUF, use (M'U)*4(MU)*4, then reverse the set-up moves with F'U'B'. Alternatively, the set-up moves B'UF' allow us to use the shorter four-edge flipper, (M'U)*4.
+           </p>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="{Set-up moves}BUF{Four-edge flipper}M'UM'UM'UM'UMUMUMUMU{Reverse set-up moves}F'U'B'">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+           <br>
+            <center>
+             Approach 1
+            </center>
+           </br>
+          </td>
+          <td>
+           <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+            <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+             <script>
+              getColorParam();
+             </script>
+             <param name="move" value="{Set-up moves}B'UF'{Four-edge flipper}M'UM'UM'UM'U{Reverse set-up moves}FU'B">
+              <param name="initrevmove" value="#">
+              </param>
+             </param>
+            </param>
+           </applet>
+           <br>
+            <center>
+             Approach 2
+            </center>
+           </br>
+          </td>
+         </tr>
+        </table>
+        <h5>
+         Summary
+        </h5>
+        <p>
+         <b>
+          Memorization
+         </b>
+         : Memorize which edges are incorrectly oriented.
+         <br>
+          <b>
+           Resolution
+          </b>
+          : Flip the incorrectly oriented edges in groups of even numbers using the appropriate algorithms and set-up moves.
+         </br>
+        </p>
+        <a name="CO">
+        </a>
+        <h3>
+         2.2 Corner Orientation
+        </h3>
+        <p>
+         Corner orientation is slightly trickier because there are three possible orientations for each corner: correct, clockwise (hereafter "cw"), and counter-clockwise (hereafter "ccw"). A corner is correctly oriented when its U/D-colored sticker is on U or D.
+        </p>
+        <table align="center" cellpadding="10">
+         <tr align="center">
+          <td>
+           <p>
+            <b>
+             Correct
+            </b>
+           </p>
+           <p>
+            <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+             <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+              <script>
+               getColorParam();
+              </script>
+              <param name="position" value="LLUU">
+               <param name="facelets" value="d.d.d.d.dd.d.d.d.d....................................">
+               </param>
+              </param>
+             </param>
+            </applet>
+           </p>
+          </td>
+          <td>
+           <p>
+            <b>
+             Clockwise (cw)
+            </b>
+           </p>
+           <p>
+            <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+             <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+              <script>
+               getColorParam();
+              </script>
+              <param name="position" value="LLUU">
+               <param name="facelets" value="....................d...d....d...d..d.......d..d...d..">
+               </param>
+              </param>
+             </param>
+            </applet>
+           </p>
+          </td>
+          <td>
+           <p>
+            <b>
+             Counter Clockwise (ccw)
+            </b>
+           </p>
+           <p>
+            <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+             <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+              <script>
+               getColorParam();
+              </script>
+              <param name="position" value="LLUU">
+               <param name="facelets" value="..................d.......dd.......d..d...d..d.......d">
+               </param>
+              </param>
+             </param>
+            </applet>
+           </p>
+          </td>
+         </tr>
+        </table>
+        <p>
+         What follows is a method based on commutators, which requires minimal memorization. A faster and more advanced algorithm-based approach can be found
+         <a href="misc.html#2stepCO">
+          here
+         </a>
+         .
+        </p>
+        <p>
+         It can be proven using basic group theory that, for any solvable configuration of the cube, the sum of corner orientations (where correct=0, cw=1, ccw=2) of the eight corners is always divisible by 3. This means that we can never twist a single corner by itself; the two elementary operations we can do are to twist two corners in opposite directions (
+         <b>
+          cw/ccw pair
+         </b>
+         ) and to twist three corners in the same direction (
+         <b>
+          cw-triple
+         </b>
+         or
+         <b>
+          ccw-triple
+         </b>
+         ). Given a scramble, we first find as many cw/ccw pairs as possible. The remaining incorrectly oriented corners, if any, must all have the same direction, and by the assertion above, these can always be grouped into cw-triples or ccw-triples. Corner orientation is thus reduced to solving cw/ccw pairs (denoted (ab) for a ccw and b cw) and cw-/ccw-triples (denoted abc cw/ccw).
+        </p>
+        <h5>
+         cw/ccw pair
+        </h5>
+        We first explain how to solve a cw/ccw pair when both corners are on the U layer. We introduce the
+        <b>
+         monoflip
+        </b>
+        :
+       </br>
+      </p>
+      <table align="center" cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           Monoflip A=R'D'RDR'D'R
+           <br>
+            Monoflip A'=R'DRD'R'DR
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R'D'RDR'D'R">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R'DRD'R'DR">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       A' is the inverse of A. Note that A rotates corner 2 ccw and leaves all other U layer pieces intact. A' has a similar effect but twists 2 cw. We use what is known as a
+       <b>
+        commutator
+       </b>
+       --any sequence of the form XYX'Y', where X' and Y' represent inverses of X and Y, respectively. In particular, we set X to be A and Y to be some number of U turns. The following examples demonstrate the effect of such a commutator:
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 3:
+          </b>
+          To solve (12), do U'AUA' = U'-R'D'RDR'D'R-U-R'DRD'R'DR. U' brings the ccw corner to position 2, and A rotates this corner. U then brings the cw corner to position 2, which is rotated by A'. There is no final U turn needed since the first corner is already back in its original position.
+          <b>
+           Whatever destruction A causes to the bottom two layers is reversed by A'
+          </b>
+          so that the net effect is to rotate just two corners.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{U'}U'{Monoflip A}R'D'RDR'D'R{U}U{Monoflip A'}R'DRD'R'DR">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Example 3
+          </center>
+         </br>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 4:
+          </b>
+          (13) can be solved as U'AU2A'U' = U'-R'D'RDR'D'R-U2-R'DRD'R'DR-U'. U' brings the ccw corner to position 2, and A rotates this corner. U2 then brings the cw corner to position 2, which is rotated by A'. The final U' brings the first corner to its original position.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{U'}U'{Monoflip A}R'D'RDR'D'R{U2}U2{Monoflip A'}R'DRD'R'DR{U'}U'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Example 4
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <p>
+       By using an appropriate number of U turns to set up the corners to position 2, this approach can be used to solve any cw/ccw pairs on U layer. It is not necessary to always start with the ccw corner; we can rotate the cw corner first by using A' first. In practice, it is much easier to perform A and A' after tilting the cube with z'. Be sure, however, to perform z at the end of the commutator. For example, Example 1 becomes z'-L'-U'R'URU'R'U-L-U'RUR'U'RU-z.
+      </p>
+      <p>
+       When the cw/ccw pair is not in the U layer, we use set-up moves, just like in edge orientation, to reduce it to the case above. For example, to rotate 1 ccw and 8 cw, we can set up with B'U' and rotate 2 ccw and 1 cw: B'U'-z'-U'R'URU'R'U-L'-U'RUR'U'RU-L-z-UB. Like in edge orientation, there is no restriction on the set-up moves. Alternatively, since 1 and 8 are already in L layer, we can also solve this with a commutator for that layer: U'R'URU'R'U-L2-U'RUR'U'RU-L2.
+      </p>
+      <h5>
+       cw-triple / ccw-triple
+      </h5>
+      <p>
+       We now use slightly different monoflips:
+      </p>
+      <table align="center" cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           Monoflip C=(R'D'RD)*2
+           <br>
+            Monoflip C'=(R'DRD')*2
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R'D'RDR'D'RD">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R'DRD'R'DRD'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Note the addition of the final D or D'. We rely on the fact that these monoflips have order 3, meaning that CCC or C'C'C' does nothing.
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 5:
+          </b>
+          (123 cww) can be solved by U'CUCUCU' = U'-(R'D'RD)*2-U-(R'D'RD)*2-U-(R'D'RD)*2-U'. U' brings corner 1 to position 2, which is rotated by C. U brings the next corner to position 2, which is rotated by C. We repeat this for the third corner, and the final U' brings the first corner back to its original position.
+          <b>
+           Because C is performed three times, there is no damage done to the bottom two layers.
+          </b>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{U'}U'{Monoflip C}R'D'RDR'D'RD{U}U{Monoflip C}R'D'RDR'D'RD{U}U{Monoflip C}R'D'RDR'D'RD{U'}U'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Example 5
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Just like cw/ccw pairs, cw-/ccw-triples involving both U and D layers are handled with set-up moves. The best strategy is often to set up the corners on L layer and use an L-layer commutator. For example, (347 ccw): y'-(U'R'UR)*2-L-(U'R'UR)*2-L-(U'R'UR)*2-L2-y. Alternatively, R' reduces this to a U-layer commutator. However, we would then need to tilt the cube with z'. As another example, (257 ccw): UB'-L2-(U'R'UR)*2-L-(U'R'UR)*2-L-(U'R'UR)*2-BU'.
+      </p>
+      <h5>
+       Additional algorithms
+      </h5>
+      <p>
+       Although corner orientation can be handled quite efficiently using commutators, there are slightly faster algorithms for special cases. You may wish to learn the following algorithms once you successfully solve the corner orientation blindfolded with commutators.
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           (43)(21): RUR'URU'R'URU2'R'-R2U'R'U'RURURU'R (OLL - PLL)
+           <br>
+            (43)(12): FRUR'U'RUR'U'F'-RUR'U'RwR'URU'R'w (2 OLL's)
+            <br>
+             (234 cw): RU-R2U'R2'U-RUR'U'-RURU-RU'R'U (Thanks to Joël van Noort!)
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{OLL 21}RUR'URU'R'URU2'R'{A Permutation}R2U'R'U'RURURU'R">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{OLL 22}FRUR'U'RUR'U'F'{OLL 57}RUR'U'rR'URU'r'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R U R2 U' R2' U R U R' U' R U R U R U' R' U">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Even more algorithms can be found
+       <a href="misc.html#2stepCO">
+        here
+       </a>
+       .
+      </p>
+      <h5>
+       Summary
+      </h5>
+      <p>
+       <b>
+        Memorization
+       </b>
+       : Split the orientation into cw/ccw pair(s) and/or cw-/ccw-triple(s). Memorize each group visually using the direction the U/D stickers point to.
+       <br>
+        <b>
+         Resolution
+        </b>
+        : Solve the cw/ccw pair(s) and/or cw-/ccw-triple(s) one at a time using conjugation and monoflip commutators. Alternatively, use one of the additional algorithms together with appropriate set-up moves. In either case, set-up moves have no restriction.
+       </br>
+      </p>
+      <a name="P">
+      </a>
+      <h2 class="bg">
+       3 Permutation
+      </h2>
+      <p>
+       Permutation is where the pieces need to go. Our goal is to move all pieces to their correct spot while preserving the orientation, which should already be solved. Like orientation, permutation is also divided into corners and edges; however, each scramble has a 50% chance of having a permutation parity, in which case we need to transpose a pair of edges and a pair of corners simultaneously. The same principle of set-up moves apply here, but with added restrictions to preserve the orientation.
+      </p>
+      <a name="cycle">
+      </a>
+      <h3>
+       3.1 Cycle Method
+      </h3>
+      <p>
+       In this section, "corner 1" refers the corner in spot 1, not the corner that belongs to spot 1.
+      </p>
+      <p>
+       The permutation method explained here is know as the cycle method and is used for the corners as well as the edges. This is the defining difference between cycle methods and the so-called piece-by-piece method. It is essential that you completely understand the material in this section; solving along cycles is the single most important concept to grasp in any cycle method, including this one.
+      </p>
+      <p>
+       Mathematically inclined readers will recall that every permutation can be uniquely decomposed into a product of disjoint cycles (up to order of the cycles). In a more ordinary language, we can rewrite every configuration of, say, the corners, into a series of permutations in which pieces are cycled. For example, the cycle (123) means that corner 1 belongs to spot 2, 2 to 3, and 3 to 1. This decomposition of permutation into cycles can quite easily be achieved using the following:
+      </p>
+      <b>
+       Cycle Decomposition Algorithm
+      </b>
+      <ul style="list-style-type: decimal">
+       <li>
+        Locate the smallest number that has not been written (the first time this number is 1).
+       </li>
+       <ul style="list-style-type: lower-alpha;">
+        <li>
+         If such number exists, write down "(" and then that number.
+        </li>
+        <li>
+         If all numbers have been written, stop.
+        </li>
+       </ul>
+       <li>
+        Find the last number that was written. Determine to which spot this corner needs to be moved.
+       </li>
+       <ul style="list-style-type: lower-alpha;">
+        <li>
+         If the number of this spot has not been written, write it down and repeat step 2.
+        </li>
+        <li>
+         If the number of this spot has been written, write ")" to end the cycle. Go to step 1.
+        </li>
+       </ul>
+      </ul>
+      <p>
+       A cycle of length one means that the piece is already in place. We may disregard such cycles altogether during memorization.
+      </p>
+      <p>
+       The best way to see how this works is to experiment using random scrambles. We provide one example for corner permutation.
+      </p>
+      <table align="center" cellpadding="5" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 6:
+          </b>
+         </p>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="initmove" value="R2 F2 D' L2 B2 U' R2 B2 F2 D2 L2 D' B2 U' R' F R' L' U B D R' F D U'">
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <p>
+          <b>
+           Scramble
+          </b>
+          (from a solved cube, with your chosen orientation of the cube): R2 F2 D' L2 B2 U' R2 B2 F2 D2 L2 D' B2 U' R' F R' L' U B D R' F D U'
+          <br>
+           Start a cycle with corner 1: (1
+           <br>
+            1 belongs to 2: (12
+            <br>
+             2 belongs to 8: (128
+             <br>
+              8 belongs to 6: (1286
+              <br>
+               6 belongs to 1, completing this cycle: (1286)
+               <br>
+                Start a new cycle with corner 3, the lowest corner not yet used: (1286)(3
+                <br>
+                 3 belongs to 3, completing this cycle. We disregard this cycle: (1286)(3) or (1286)
+                 <br>
+                  Start a new cycle with corner 4: (1286)(4
+                  <br>
+                   4 belongs to 5: (1286)(45
+                   <br>
+                    5 belongs to 7: (1286)(457
+                    <br>
+                     7 belongs to 4, completing this cycle: (1286)(457)
+                    </br>
+                   </br>
+                  </br>
+                 </br>
+                </br>
+               </br>
+              </br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Notice that we can start a new cycle using any corner that does not already belong in a cycle. However, always starting with the corner with the lowest possible number (or earliest in some set order if no number is used) keeps the memorization simple, and less thinking means faster times. Although you must memorize everything in your head in official attempts, writing down the information on paper is a good practice when first working with cycles. As practice, apply the Cycle Decomposition Algorithm to the edges of the same scramble; you should obtain the decomposition (1 5 8)(2 6)(4 12 11 7)(9 10).
+      </p>
+      <p>
+       Once we have obtained a cycle decomposition, the permutation can be solved along the cycles. The 3-Cycle method is so called because 3-cycles (cycles of length 3) are used to reduce each of the cycles that make up the permutation. This relies on the following:
+      </p>
+      <p>
+       <b>
+        Cycle Reduction Rule:
+       </b>
+       A cycle of length 3 or longer, when its first 3 pieces are cycled, loses the second and the third number. (More generally, a cycle of length k or longer, when the first k pieces are cycled, loses the second through the k
+       <sup>
+        th
+       </sup>
+       numbers.) In particular, cycles of length 3 are reduced to cycles of length 1, which can then be discarded from memory.
+      </p>
+      <p>
+       For example, applying (abc) reduces (abcde) to (ade). This analysis can be performed as the cuber solves the cube, and since numbers corresponding to solved pieces can be erased from memory, we know that our solve is complete when all the information is gone.
+      </p>
+      <p>
+       Given a cycle decomposition, we can thus reduce the length of each cycle 2 at a time using 3-cycles. This leaves us with 2-cycles to solve for both the corners and the edges. In addition, any pair of 2-cycles of either the corners or the edges can be solved by some
+       <b>
+        double transposition
+       </b>
+       algorithm. It can be shown with using basic group theory that, after reducing each cycle in the decomposition with 3-cycles, the number of 2-cycles left for corners and for the edges are either both even or both odd. In the first case, double transpositions involving just the corners or just the edges are enough to solve the entire cube. In the second case, after some double transpositions (if any), we will be left with one 2-cycle both of the corners and of the edges. This situation, called a
+       <b>
+        permutation parity
+       </b>
+       , occurs with 50% probability.
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 7:
+          </b>
+          We use the scramble given in the last example.
+         </p>
+         <p>
+          <b>
+           Corners:
+          </b>
+          (1 2 8 6)(4 5 7)
+          <li>
+           (1 2 8) reduces (1 2 8 6) to (1 6), leaving (1 6)(4 5 7). Since (1 6) is a 2-cycle, we cannot reduce it any further with a 3-cycle. We move on to the next cycle.
+           <li>
+            (4 5 7) solves (4 5 7), leaving (1 6).
+            <li>
+             We have reduced every cycle as much possible using 3-cycles. Since there is only one 2-cycle left, we cannot use a double transposition. We have a permutation parity.
+            </li>
+           </li>
+          </li>
+         </p>
+         <p>
+          <b>
+           Edges:
+          </b>
+          (1 5 8)(2 6)(4 12 11 7)(9 10)
+          <li>
+           (1 5 8) solves (1 5 8), leaving (2 6)(4 12 11 7)(9 10). We move on to the next cycle.
+           <li>
+            Since (2 6) is a 2-cycle, we cannot reduce it any further with a 3-cycle. We move on to the next cycle.
+            <li>
+             (4 12 11) reduces (4 12 11 7) to (4 7), leaving (2 6)(4 7)(9 10). Since (4 7) is a 2-cycle, we cannot reduce it any further with a 3-cycle. We move on to the next cycle.
+             <li>
+              Since (9 10) is a 2-cycle, we cannot reduce it any further with a 3-cycle.
+              <li>
+               We have reduced every cycle as much possible using 3-cycles. Since there are more than one 2-cycle left, we use double transpositions. (2 6)(4 7), for example, solves (2 6) and (4 7), leaving (9 10).
+               <li>
+                Since there is only one 2-cycle left, we cannot use a double transposition. This is consistent with our observation from solving the corners that there is a permutation parity.
+               </li>
+              </li>
+             </li>
+            </li>
+           </li>
+          </li>
+         </p>
+         <p>
+          <b>
+           Permutation parity:
+          </b>
+          Finally, we solve the parity CP(1 6) EP(9 10).
+         </p>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Be sure that you completely understand this section. The Cycle Reduction Algorithm and the Cycle Reduction Rule allow us to reduce the task of solving the permutation into applying, in appropriate order: 1) 3-cycles (corners or edges); 2) double transpositions (corners or edges); 3) and permutation parity correction. We discuss each of these in the remaining sections.
+      </p>
+      <h5>
+       Conjugation and Set-Up Moves for Permutation
+      </h5>
+      <p>
+       Recall the concept of conjugation, which allowed us to handle different orientations using a single algorithm combined with appropriate set-up moves. We use this techniques repeatedly in permutation as well, both corners and edges. The key difference from orientation is that we must now place certain restrictions on the set-up moves so that the main algorithm does not disturb the already-corrected orientation. The restriction depends both on the definition of orientation and the algorithms used and differ for corners and edges.
+      </p>
+      <a name="CP">
+      </a>
+      <h3>
+       3.2 Corner Permutation
+      </h3>
+      <a name="CP3">
+      </a>
+      <h4>
+       3.2.1 Cycles of length 3
+      </h4>
+      <p>
+       Any single algorithm that cycles 3 corners will work here. For convenience, we will use one that solves (123) and its mirror, which solves (214), both of which can be performed on either U or D face without disturbing orientation.
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           CP(123): RB'RF2R'BRF2R2
+           <br>
+            CP(214): L'BL'F2LB'L'F2L2
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RB'RF2R'BRF2R2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="L'BL'F2LB'L'F2L2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       As before, write our conjugated algorithms as YXY^(-1). We can make sure that this preserves the orientation of every corner by requiring that the set-up moves, Y, preserve the orientation. From the definition of corner orientation, we can see that all U/D-layer turns, but only half turns of the four side layers, preserve the orientation. We therefore restrict the set-up moves to the (UDF2B2R2L2) group, meaning no quarter turn of the side layers. Because the moves are defined relative to some fixed placement of the center axes, we are also not free to perform cube rotations during the set-up moves. Corresponding to the restriction on the face moves, the cube rotations allowed in the set-up moves are with the (x2 y z2) group, meaning no single x or z turn.
+      </p>
+      <p>
+       The entire procedure for solving a 3-cycle looks like this:
+       <br>
+        1. Use set-up moves within the (UDF2B2R2L2) group to place the three corners either all on U or all on D face.
+        <br>
+         2. Permute the corners using one of the two algorithms.
+         <br>
+          3. Reverse the set-up moves.
+         </br>
+        </br>
+       </br>
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 8:
+          </b>
+          Consider the cycle (274), which can be solved as DL2D2B2-L'BL'F2LB'L'F2L2-B2D2L2D'. The set-up moves DL2D2B2 will bring the three corners to (214). The second algorithm solves this cycle, and finally we reverse the set-up moves with B2D2L2D'.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}DL2D2B2{Main algorithm}L'BL'F2LB'L'F2L2{Reverse set-up moves}B2D2L2D'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Example 8
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <p>
+       3-cycles like this example, involving two corners across a diagonal on one side and the third corner on the other side, are the hardest to set up. Some blindfold cubers instead use some variation of the following algorithms:
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           CP(731): (R2'DR2D'R2-U2)x2
+           <br>
+            CP(375): (R2U'R2'UR2-D2')x2
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R2'DR2D'R2U2R2'DR2D'R2U2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R2U'R2'UR2D2'R2U'R2'UR2D2'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Still others use the
+       <b>
+        Caltech cycle
+       </b>
+       , which uses the double transposition CP(24)(37): (RB'R'B)*3:
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 9:
+          </b>
+          The same cycle (274) is solved as U-(RB'R'B)*3-U2'-(RB'R'B)*3-U with the Caltech cycle. Note that the \textbf{lone corner}, corner 7, must be permuted to position 4. We align corner 4 with corner 7 with U and switch the two with (RB'R'B)*3. U2' then aligns corner 2 with corner 4, now in position 7, and the two are switched with another (RB'R'B)*3. The final U places corner 4 in its desired destination, position 2. Note that the transpositions (24) of the two CP(24)(37) cancel each other.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{U}U{First transposition}RB'R'BRB'R'BRB'R'B{U2'}U2'{Second transposition}RB'R'BRB'R'BRB'R'B{U}U">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Example 9
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <a name="CP2">
+      </a>
+      <h4>
+       3.2.2 Cycles of length 2
+      </h4>
+      <p>
+       Cycles of length 2 can only be solved in pairs (double transposition). The same method and limitation of set-up moves apply here.
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           E = CP(12)(34): xUR'U'LURU'R'2wU'RULU'R'Ux
+           <br>
+            X = CP(13)(24): U2 EP(13)(24) = U2RLU2R'L'F'B'U2FB
+            <br>
+             Q = CP(24)(37): (RB'R'B)x3
+             <br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="xUR'U'LURU'r2'U'RULU'R'Ux">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="U2RLU2R'L'F'B'U2FB">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RB'R'BRB'R'BRB'R'B">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          CP(34)(26): (U2'RU'R'U'RU'R')*2 (inverse of Joel van Noort's)
+          <br>
+           CP(34)(15): (U2'L'ULUL'UL)*2 (mirror)
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="U2'RU'R'U'RU'R'U2'RU'R'U'RU'R'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="U2'L'ULUL'ULU2'L'ULUL'UL">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       While every double transposition can be reduced to any one of these cases with clever set-up moves, we recommend learning all of these. In particular, the last three algorithms can be used to avoid long set-up moves in otherwise difficult cases. For a systematic way of handling all double transpositions, see
+       <a href="misc.html#cornerdoubletransposition">
+        here
+       </a>
+       .
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 10:
+          </b>
+          Consider (28)(36). One approach is to bring all corners to U layer with the set-up moves L2DL2DL2, which reduces the permutation to (13)(24), for the full solution L2DL2DL2-U2RLU2R'L'F'B'U2FB-L2D'L2D'L2. Alternatively, setting up with DL2 reduces this to (24)(37), leading to the solution DL2-(RB'R'B)*3-L2D'.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}L2DL2DL2{Main algorithm}U2RLU2R'L'F'B'U2FB{Reverse set-up moves}L2D'L2D'L2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 1
+          </center>
+         </br>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}DL2{Main algorithm}RB'R'BRB'R'BRB'R'B{Reverse set-up moves}L2D'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 2
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <a name="EP">
+      </a>
+      <h3>
+       3.3 Edge Permutation
+      </h3>
+      <p>
+       For many people, edge permutation is the hardest part of the 3-cycle method because it involves twelve pieces, more than the number of corners. However, the exact same approach used for corners also applies here; we will still use 3-cycles to reduce the cycles one after another. The only difference is that the set-up moves must now stay within the (UDF2B2RL) group, meaning no F/B single turns, to preserve the orientation.* The increased freedom from the set-up moves for corners also means that we need to be more careful to remember the order of turns correctly. For example, we may be able to use either B2R' or R'B2. Making some rules for the set-up moves, such as performing, whenever possible, U/D first, R/L next, and finally F2/B2, can be helpful in avoiding errors.
+      </p>
+      <p>
+       *Note that this is the restriction we used to define edge orientation.
+      </p>
+      <a name="EP3">
+      </a>
+      <h4>
+       3.3.1 Cycles of length 3
+      </h4>
+      <p>
+       As with the corners, it is useful to know the 3-cycle in both directions:
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           EP(421): RU'RURURU'R'U'R2
+           <br>
+            EP(241): R2URUR'U'R'U'R'UR'
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RU'RURURU'R'U'R2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R2URUR'U'R'U'R'UR'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       These can be performed on U/D/R/L faces without disturbing the orientation.* Another useful 3-cycle, which, although optional, can often save a few moves, is the following and its many variations:
+      </p>
+      <p>
+       (*Previous versions of this guide listed EP(243): R2U'R'U'RURURU'R and EP(423): R'UR'U'R'U'R'URUR2. Because we often start the first cycle at UF, many of our 3-cycles involve this position. This change, therefore, often eliminates a U2 from the set-up moves. For maximum efficiency, learn to use all four algorithms.)
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           EP(193): M'U2MU2
+           <br>
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="M'U2MU2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       This can be used in any direction and on any side without disturbing the edge orientation. Of course, since every 3-cycle can be solved with either EP(243) or EP(423), we recommend that you learn to use this algorithm only after you are comfortable using the first two, and certainly not before you can complete a solve successfully.
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 11:
+          </b>
+          Suppose we want to do EP(156). The most basic solution is to set up the pieces on U face with L'U'L2 and use EP(412): L'U'L2'-R2URUR'U'R'U'R'UR'-L2UL More simply, recalling that these 3-cycles work on R/L faces as well, we can set up with U and perform EP(241) on L: ULz-R2URUR'U'R'U'R'UR'-z'L'U'.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}L'U'L2'{Main algorithm}R2URUR'U'R'U'R'UR'{Reverse set-up moves}L2UL">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 1
+          </center>
+         </br>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}ULy{Main algorithm}R2URUR'U'R'U'R'UR'{Reverse set-up moves}y'L'U'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 2
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <p>
+       The direction of every 3-cycle can be determined by just noting where one of the three pieces need to go. Therefore, while performing the set-up moves, it is enough to keep track of where the pieces go and where just one piece belongs to determine which algorithm to apply.
+      </p>
+      <a name="EP2">
+      </a>
+      <h4>
+       3.3.2 Cycles of length 2
+      </h4>
+      <p>
+       Just as with corners, 2-cycles of edges can only be solved in pairs (double transpositions). The restriction on the set-up moves are the same as for 3-cycles: (UDF2B2RL). Here, H and Z permutations are the most basic and useful algorithms.
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           H=EP(13)(24): RLU2R'L'F'B'U2FB
+           <br>
+            Z=EP(14)(23): UR'U'RU'RURU'R'URUR2U'R'U
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RLU2R'L'F'B'U2FB">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="UR'U'RU'RURU'R'URUR2U'R'U">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Z can only be used on U/D/R/L faces while H works on any face without disturbing the orientation. We also have the following useful algorithms:
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           EP(1 3)(9 11): M2U2M2U2
+           <br>
+            EP(1 11)(3 9): ME2ME2
+            <br>
+             EP(1 3)(7 8): (R2U2)*3
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="M2U2M2U2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="ME2ME2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="R2U2R2U2R2U2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       These can be applied in any direction and on any face.
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td>
+         <p>
+          <b>
+           Example 12:
+          </b>
+          Suppose we want to do EP(2 8)(6 12). The most obvious approach is to set up with RU'R'L and use EP(13)(24): RU'RL-RLU2R'L'F'B'U2FB-L'R'UR'. We could also set-up with U2B2R' and use EP(14)(23) on R face: U2B2R'z'-UR'U'RU'RURU'R'URUR2U'R'U-zRB2U2.
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}RU'RL{Main algorithm}RLU2R'L'F'B'U2FB{Reverse set-up moves}L'R'UR'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 1
+          </center>
+         </br>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}U2B2R'y'{Main algorithm}UR'U'RU'RURU'R'URUR2U'R'U{Reverse set-up moves}yRB2U2">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 2
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <a name="parity">
+      </a>
+      <h3>
+       3.4 Permutation Parity
+      </h3>
+      <p>
+       50% of solves will have a permutation parity, meaning an odd permutation of edges and, consequently, an odd permutation of the corners. Blindfold cubers have not reached a consensus on how best to deal with the permutation parity. Perhaps the easiest method is to solve the corners using T permutation and the four edges using H permutation, which we already saw. In these two parts, the set-up moves must obey the same restrictions used for corner and for edge permutation, respectively.
+      </p>
+      <table cellpadding="5">
+       <tr>
+        <td>
+         <p>
+          <center>
+           <b>
+            Algorithms
+           </b>
+          </center>
+          <br>
+           T=CP(23) EP(24): RUR'U'R'FR2U'R'U'RUR'F'
+           <br>
+            H=EP(13)(24): RLU2R'L'F'B'U2FB
+           </br>
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RUR'U'R'FR2U'R'U'RUR'F'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="RLU2R'L'F'B'U2FB">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Alternatively, any
+       <a href="../cubefreak-mirror/Fridrich/PLL.html">
+        PLL algorithm
+       </a>
+       that swaps two corners and two edges can be used together with appropriate set-up moves. In this case, the restriction on the set-up moves becomes slightly complicated. Set up the corners first within the (UDF2B2R2L2) group. Since this is more restrictive than the (UDF2B2RL) group used for the edges, these moves also preserve edge permutation. Then, set up the edges using the (UDF2B2RL) group, making sure that the two corners in question are not affected.
+      </p>
+      <table align="center" width="80%">
+       <tr>
+        <td colspan="2">
+         <p>
+          <b>
+           Example:
+          </b>
+          CP(17) EP(18).
+         </p>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <p>
+          <b>
+           Approach 1:
+          </b>
+          <br>
+           Using the first method, we first do CP(17) EP(24) with B2U2-(T permutation)-U2B2, reducing the permutation to EP(18)(24). Now this can be handled by UR-(H permutation)-R'U'.
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}B2U2{T permutation}RUR'U'R'FR2U'R'U'RUR'F'{Reverse set-up moves}U2B2{Set-up moves}UR{H permutation}RLU2L'R'F'B'U2FB{Reverse set-up moves}R'U'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 1
+          </center>
+         </br>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <p>
+          <b>
+           Approach 2:
+          </b>
+          <br>
+           Using a longer set-up move, we can do this using one T permutation: URU'RU'-(T permutation)-UR'UR'U'.
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}URU'RU'{T permutation}RUR'U'R'FR2U'R'U'RUR'F'{Reverse set-up moves}UR'UR'U'">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 2
+          </center>
+         </br>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <p>
+          <b>
+           Approach 3:
+          </b>
+          <br>
+           With some insight, we can also see another nice solution: U'-(Y permutation on R)-U. This works because diagonal transposition on any face does not disturb the corner orientation.
+          </br>
+         </p>
+        </td>
+        <td>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="{Set-up moves}U'y'z{Y permutation}FRU'R'U'RUR'F'RUR'U'R'FRF'{Reverse set-up moves}z'yU">
+            <param name="initrevmove" value="#">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <br>
+          <center>
+           Approach 3
+          </center>
+         </br>
+        </td>
+       </tr>
+      </table>
+      <p>
+       Permutation parity does not have to be solved at the very end. If we realize that we have parity half way into solving the permutation, we can correct the parity at an easier time. If the two pieces to be swapped are consecutive in a cycle, remember to modify this by erasing the second piece.
+      </p>
+      <p>
+       For many people, permutation parity is the hardest part of blindfold cubing. One way to avoid parities altogether is to determine the parity during inspection from the corners (corners are usually easier since there are fewer pieces). Parity is even (no parity fix necessary) if and only if the number of cycles of even length is even. If there is a parity, we can perform U at the beginning of the solve to change this (a 4-cycle is an odd permutation). However, since we cannot make any move during inspection, we must rememorize the permutation after an imaginary U.
+      </p>
+      <a name="summary">
+      </a>
+      <h2 class="bg">
+       4 Summary
+      </h2>
+      <p>
+       With the understanding of the above material, we can now walk through a blindfold solve using this method.
+      </p>
+      <p>
+       <b>
+        Memorization
+       </b>
+      </p>
+      <p>
+       Memorization of the four parts can be done in any order. Here, we will discuss them in the following order: EP, CP, EO, CO. My reason for using this order is explained in the next section, IV. Memorization.
+      </p>
+      <p>
+       <b>
+        Edge Permutation:
+       </b>
+       Using the Cycle Decomposition algorithm described in
+       <a href="#cycle">
+        II. B. i. Cycle Method
+       </a>
+       , obtain in cycle notation the permutation of twelve edges. Memorize this.
+       <br>
+        <b>
+         Corner Permutation:
+        </b>
+        Repeat the above for the eight corners, memorizing the cycles. Be sure to distinguish these from the permutation of edges.
+        <br>
+         <b>
+          Edge Orientation:
+         </b>
+         Using the method explained in
+         <a href="#EO">
+          II. A. i. Edge Orientation
+         </a>
+         , determine the orientation of each edge and memorize which edges are incorrectly oriented.
+         <br>
+          <b>
+           Corner Orientation:
+          </b>
+          Memorize the direction in which the U/D sticker of each corner points.
+         </br>
+        </br>
+       </br>
+      </p>
+      <p>
+       <b>
+        Resolution
+       </b>
+      </p>
+      <p>
+       Orientation must be solved completely before permutation. However, within each of orientation and permutation, it does not matter whether we solve the corners or the edges first. Parity error may be corrected at any time while solving the permutation. The idea of set-up moves is crucial to understanding how we apply the algorithms. Any piece we solve can be erased from memory.
+      </p>
+      <p>
+       <b>
+        Corner Orientation
+       </b>
+       : Using set-up moves and a commutator of (R'D'RD)*2 and U, solve one cw and one ccw or three in same orientation. This must usually be repeated several times to correct all orientation. We can also use conjugation and special algorithms. There is no restriction on the set-up moves.
+       <br>
+        <b>
+         Edge Orientation
+        </b>
+        : Using set-up moves and appropriate edge-orientation algorithms, flip the incorrectly oriented edges. The ones that  are flipped may be erased from memory.
+        <br>
+         <b>
+          Corner Permutation
+         </b>
+         : Following the Cycle Reduction Rule described in
+         <a href="#cycle">
+          II. B. i. Cycle Method
+         </a>
+         , apply algorithms to reduce cycles of length 3 or longer. Solve each pair of cycles of length 2 with the appropriate algorithms. Set-up moves must be within the (UDF2B2R2L2x2yz2) group. In case a single cycle of length 2 is left, move on to edge permutation.
+         <br>
+          <b>
+           Edge Permutation
+          </b>
+          : Repeat the same procedure for edges. Set-up moves must be within the (UDF2B2RLM2E2S2x2yz2) group.
+          <br>
+           Parity Fix (if necessary): Use set-up moves and appropriate PLL algorithms.
+          </br>
+         </br>
+        </br>
+       </br>
+      </p>
+      <a name="memo">
+      </a>
+      <h2 class="bg">
+       5 Memorization
+      </h2>
+      <p>
+       Read
+       <a href="http://speedsolving.com/forum/showthread.php?t=785">
+        this post
+       </a>
+       . I visually memorize the patterns of the cycles (triangles, Z-like zigzags, parallel lines, etc).
+      </p>
+      <a name="example">
+      </a>
+      <h2 class="bg">
+       6 Example Solves
+      </h2>
+      <p>
+       Here are two walk-throughs of the 3-cycle method on random scrambles generated by JNetCube. Recall that (ab) in corner orientation means that a is to be turned ccw and b cw.
+      </p>
+      <p>
+       You can also find a
+       <a href="http://www.youtube.com/watch?v=q5woaOaJXts">
+        video example solve
+       </a>
+       (with annotation) by olvemaudal.
+      </p>
+      <table border="0">
+       <tr align="center">
+        <td>
+         Solve 1
+        </td>
+        <td>
+         Solve 2
+        </td>
+       </tr>
+       <tr>
+        <td valign="top">
+         <p>
+          <b>
+           Scramble:
+          </b>
+          D' B' F R' F2 U F L2 D2 B' U2 R2 D' L2 F R' D' F U L' F U' R B2 U'
+         </p>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="">
+            <param name="initmove" value="D'B'FR'F2UFL2D2B'U2R2D'L2FR'D'FUL'FU'RB2U'">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <p>
+          <b>
+           1. Memorization
+          </b>
+          <br>
+           CP:(1 5 4 2 7 8 3)
+           <br>
+            EP:(1 7 9 12 11 4 5 8)(2 6)
+            <br>
+             EO: 1 2 3 4 5 6 8 10 11 12
+             <br>
+              CO:(2 1)(5 7 8 cw)
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           2. Corner Orientation
+          </b>
+          <br>
+           (21): z'-U'R'URU'R'U-L'-U'RUR'U'RU-L-z
+           <br>
+            (578 cw): x2z'-U'RUR'U'RUR'-L'-U'RUR'U'RUR'-L'-U'RUR'U'RUR'-L2-zx2
+            <br>
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           3. Edge Orientation
+          </b>
+          <br>
+           1 2 3 4 9 10 11 12: x-(DwDRwR)*3-x'
+           <br>
+            5 6 8 9: z'R-(MU)*4-R'z
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           4. Edge Permutation
+          </b>
+          <br>
+           (1 7 9): U'Dz'-R'UR'U'R'U'R'URUR2-zD'U
+           <br>
+            (1 12 11): F2x2U'-R'UR'U'R'U'R'URUR2-Ux2F2
+            <br>
+             (1 4 5): L'U2-R2U'R'U'RURURU'R-U2L
+             <br>
+              (1 8)(2 6): URUL-RLU2R'L'F'B'U2FB-L'U'R'U'
+              <br>
+               No parity!
+              </br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           5. Corner Permutation
+          </b>
+          <br>
+           (1 5 4): D2R2U'-RB'RF2R'BRF2R2-UR2D2
+           <br>
+            (1 2 7): DB2-RB'RF2R'BRF2R2-B2D'
+            <br>
+             (1 8 3): D'R2D2B2-RB'RF2R'BRF2R2-B2D2R2D
+             <br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+        <td valign="top">
+         <p>
+          <b>
+           Scramble:
+          </b>
+          F D2 R2 D' B2 L F' B R' L U' F2 D B2 L' U2 L F' B' R' L' D2 R' L2 F'
+         </p>
+         <applet archive="/scripts/animcube/AnimCube.jar" code="AnimCube.class" height="139" width="120">
+          <param name="config" value="/scripts/animcube/AnimCubeBLD.cfg">
+           <script>
+            getColorParam();
+           </script>
+           <param name="move" value="">
+            <param name="initmove" value="FD2R2D'B2LF'BR'LU'F2DB2L'U2LF'B'R'L'D2R'L2F'">
+            </param>
+           </param>
+          </param>
+         </applet>
+         <p>
+          <b>
+           1. Memorization
+          </b>
+          <br>
+           CP: (1 2 8 6)(4 5 7)
+           <br>
+            EP: (1 2 5)(3 8 9 6 11 7)(4 12 10)
+            <br>
+             EO: 1 2 4 5 6 8
+             <br>
+              CO: (345 cw)(678 cw)
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           2. Corner Orientation
+          </b>
+          <br>
+           (345 cw): F2-z'(U'RUR'U'RUR'L)*3Lz-F2
+           <br>
+            (678 cw): x2U'-z'(U'RUR'U'RUR'L)*3Lz-Ux2
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           3. Edge Orientation
+          </b>
+          <br>
+           1 2 4 5 6 8: BUD2-(RUR'F)*5-D2U'B'
+          </br>
+         </p>
+         <p>
+          <b>
+           4: Corner Permutation
+          </b>
+          <br>
+           (1 2 8): B2-RB'RF2R'BRF2R2-B2
+           <br>
+            (4 5 7): UL2U'R2U'-RB'RF2R'BRF2R2-UR2UL2U'
+            <br>
+             (1 6) Parity left
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           5. Edge Permutation
+          </b>
+          <br>
+           (1 2 5): U'L'U2-R'UR'U'R'U'RURUR2-U2LU
+           <br>
+            (3 8 9): RF2U'-R'UR'U'R'U'RURUR2-UF2R'
+            <br>
+             (3 6 11): U'Dz-R2U'R'U'RURURU'R-z'D'U
+             <br>
+              (3 7) Parity left
+              <br>
+               (4 12 10): U'L2R2-R'UR'U'R'U'RURUR2-R2L2U (or S'R2SR2)
+              </br>
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+         <p>
+          <b>
+           6. Parity
+          </b>
+          <br>
+           We have CP(1 6) EP(3 7). First, fix the corners and switch two additional edges:
+           <br>
+            UR2U-(T-perm i.e. RUR'U'R'FR2U'R'U'RUR'F')-U'R2U'
+            <br>
+             This leaves us with a double transposition.
+             <br>
+              (2 4)(3 7): U'R'-RLU2R'L'F'B'U2FB-RU
+             </br>
+            </br>
+           </br>
+          </br>
+         </p>
+        </td>
+       </tr>
+      </table>
+      <p>
+       If you have understood the method correctly, you should now be able to solve a Rubik's Cube blindfolded. Good luck!
+      </p>
+      <a name="links">
+      </a>
+      <h2 class="bg">
+       6 Links
+      </h2>
+      <h3>
+       Forums
+      </h3>
+      <p>
+       <b>
+        <a href="http://speedsolving.com/forumdisplay.php?f=16">
+         Blindfold Cubing subforum at Speedsolving.com
+        </a>
+       </b>
+       <br>
+        The most active forum on blindfold cubing.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://groups.yahoo.com/group/blindfoldsolving-rubiks-cube/">
+         Yahoo! Blindfold Cubing Forum
+        </a>
+       </b>
+       <br>
+        Good place to look up past discussions on blindfold cubing. This is no longer the main forum frequented by blindfold cubers.
+       </br>
+      </p>
+      <h3>
+       Other documentations / techniques / algorithm lists for the 3-cycle method
+      </h3>
+      <p>
+       <b>
+        <a href="http://homepage.ntlworld.com/angela.hayden/cube/blindfold_frontpage.html">
+         Olly's cube page
+        </a>
+       </b>
+       <br>
+        This is where I learned the 3-cycle method.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://www.astro.caltech.edu/~tmao/blindfold.doc">
+         An Introduction to Blindfold 3x3x3 Rubik's Cube Solving
+        </a>
+       </b>
+       <br>
+        A guide by Tyson Mao.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://cube.garron.us/BLD/index.htm">
+         Lucas's Blindfolded Cubing Pages
+        </a>
+       </b>
+      </p>
+      <p>
+       <b>
+        <a href="http://www.its.caltech.edu/~leyanlo/">
+         Leyan's Page
+        </a>
+       </b>
+       <br>
+        List of algorithms.
+        <a href="http://www.its.caltech.edu/~leyanlo/bld.html">
+         Direct link
+        </a>
+        .
+       </br>
+      </p>
+      <h3>
+       Other methods
+      </h3>
+      <p>
+       <b>
+        <a href="http://stefan-pochmann.info/spocc/blindsolving/M2R2/">
+         Stefan's M2/R2 blindfold cubing methods
+        </a>
+       </b>
+       <br>
+        Very possibly the future of blindfold cubing.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://www.stefan-pochmann.de/spocc/blindsolving/3x3/">
+         Stefan Pochmann's Blindfoldsolving
+        </a>
+       </b>
+       <br>
+        The original Pochmann method using 2-cycles (PLL algorithms) and solving orientation and permutation simultaneously.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://solvethecube.110mb.com/blindfold.html">
+         Joel van Noort's Blindfold Cubing Tutorial
+        </a>
+       </b>
+       <br>
+        A more detailed explanation of the Pochmann method.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://www.ws.binghamton.edu/fridrich/Richard/BlindfoldRevenge.pdf">
+         Richard Carr's PDF document
+        </a>
+       </b>
+       <br>
+        Piece-by-piece method for 1x1x1 up to 5x5x5.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://www.math.columbia.edu/~carr/BCFTSS.pdf">
+         BCFTSS (Blindfold Cubing For The Seriously Sad)
+        </a>
+       </b>
+       <br>
+        The "intermediate" piece-by-piece method developed by Richard Carr.
+       </br>
+      </p>
+      <p>
+       <b>
+        <a href="http://home.earthlink.net/~bmcgaugh/">
+         The Simplest System for Blindfold Cubing
+        </a>
+       </b>
+       <br>
+        Orientation and permutation separate, using 2-cycles.
+       </br>
+      </p>
+     </p>
+    </div>
+    <!---- end content ---->
+   </div>
+   <!-- end wrapper -->
+  </div>
+  <!-- end middle -->
+  <div id="footer">
+   <div class="wrapper">
+    <p>
+     © 2003- Shotaro Makisumi
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
